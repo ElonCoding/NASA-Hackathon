@@ -4,7 +4,7 @@ import { Suspense, useMemo, useEffect, useState } from "react";
 import { TextureLoader, Texture } from "three";
 
 function Earth({ autoRotate, layers }: { autoRotate: boolean; layers?: string[] }) {
-  const localColor = "/textures/earthmap.jpg";
+  const localColor = "https://eoimages.gsfc.nasa.gov/images/imagerecords/74000/74218/world.200412.3x5400x2700.jpg";
   const cdnTexture =
     "https://cdn.builder.io/api/v1/image/assets%2Fc89b2bcccff34daeac7e499342800fef%2F82d7d9f733b44b269c364136c5db28b5?format=webp&width=1600";
 
